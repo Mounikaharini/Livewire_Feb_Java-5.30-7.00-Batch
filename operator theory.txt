@@ -1,0 +1,84 @@
+package Day1;
+
+public class Day1Class {
+
+	public static void main(String[] args) {
+
+		//arithmetic operator
+		int a = 10;
+		int b = 20;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+		
+		//assignment operator
+		int c = 10;
+		int d = 10;
+		d+=5;
+		System.out.println(d);
+		d-=5;
+		System.out.println(d);
+		d*=4;
+		System.out.println(d);
+		d/=8;
+		System.out.println(d);
+		d%=6;
+		System.out.println(d);
+		
+		//relational 
+		int a = 20;
+		int b = 20;
+		System.out.println(a==b);
+		System.out.println(a!=b);
+		System.out.println(a<b);
+		System.out.println(a>b);
+		System.out.println(a<=b);
+		System.out.println(a>=b);
+		
+		//logical operator
+		int x = 10;
+		int y = 20;
+		System.out.println(x>=20 || y<=50);
+		System.out.println(x==10 && y!=20);
+		System.out.println(!(x==10));
+		
+		//bitwise operator
+		int a = 5;
+		int b = 10;
+		System.out.println(a&b);
+		System.out.println(a|b);
+		System.out.println(a^b);
+//		+VE = -(n+1)
+//		-VE = +(n-1)
+		System.out.println(~5);
+		System.out.println(~(-5));
+		System.out.println(5<<2);
+		System.out.println(6>>2);
+		int x = -10;
+		System.out.println(-x);
+		
+		int i = 2;
+		System.out.println(i++);
+		System.out.println(i);
+		System.out.println(++i);
+		System.out.println(i);
+		
+		int j = 3;
+		System.out.println(--j);
+		System.out.println(j);
+		System.out.println(j--);
+		System.out.println(j);
+		
+		int a = 1;
+		int c = a++ + ++a + ++a + a++;
+		System.out.println(c);
+		
+		
+		
+		
+
+	}
+
+}
